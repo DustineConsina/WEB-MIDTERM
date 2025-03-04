@@ -276,144 +276,421 @@
             <path d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10" fill="none" stroke="currentColor" stroke-width="2"></path>
           </svg>
         </div>
-        <p> ENJOY!!!</p>
+        <p> ENJOYY!!!!</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
-
         <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-
-          <div class="portfolio-filters-container" data-aos="fade-up" data-aos-delay="200">
-            <ul class="portfolio-filters isotope-filters">
-              <li data-filter="*" class="filter-active">All Work</li>
-              <li data-filter=".filter-web">Web Design</li>
-              <li data-filter=".filter-graphics">Graphics</li>
-              <li data-filter=".filter-motion">Motion</li>
-              <li data-filter=".filter-brand">Branding</li>
-            </ul>
-          </div>
-
-          <div class="row g-4 isotope-container" data-aos="fade-up" data-aos-delay="300">
-
-            <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-web">
-              <div class="portfolio-card">
-                <div class="portfolio-image">
-                  <img src="assets/img/portfolio/portfolio-1.webp" class="img-fluid" alt="" loading="lazy">
-                  <div class="portfolio-overlay">
-                    <div class="portfolio-actions">
-                      <a href="assets/img/portfolio/portfolio-1.webp" class="glightbox preview-link" data-gallery="portfolio-gallery-web"><i class="bi bi-eye"></i></a>
-                      <a href="portfolio-details.html" class="details-link"><i class="bi bi-arrow-right"></i></a>
+    
+            <!-- Portfolio Filters -->
+            <div class="portfolio-filters-container" data-aos="fade-up" data-aos-delay="200">
+                <ul class="portfolio-filters isotope-filters">
+                    <li data-filter="*" class="filter-active">All Crafts</li>
+                    <li data-filter=".filter-web">Flower Crafts</li>
+                    <li data-filter=".filter-graphics">Paper Crafts</li>
+                    <li data-filter=".filter-motion">Origami</li>
+                    <li data-filter=".filter-brand">kenemperu</li>
+                </ul>
+            </div>
+    
+            <!-- Portfolio Items -->
+            <div class="row g-4 isotope-container" data-aos="fade-up" data-aos-delay="300">
+                <!-- Portfolio Item 1 (Web Design) -->
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="assets/img/portfolio/caterpillar.jpg" class="img-fluid" alt="" loading="lazy" style="max-height: 200px; object-fit: cover;">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-actions">
+                                    <!-- Trigger Modal -->
+                                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#portfolioModal" data-craft="1">View step</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <span class="category">Caterpillar Paper</span>
+                            <h3>Modern Dashboard Interface</h3>
+                            <p>Maecenas faucibus mollis interdum sed posuere consectetur est at lobortis.</p>
+                        </div>
                     </div>
-                  </div>
                 </div>
-                <div class="portfolio-content">
-                  <span class="category">Web Design</span>
-                  <h3>Modern Dashboard Interface</h3>
-                  <p>Maecenas faucibus mollis interdum sed posuere consectetur est at lobortis.</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-graphics">
-              <div class="portfolio-card">
-                <div class="portfolio-image">
-                  <img src="assets/img/portfolio/portfolio-10.webp" class="img-fluid" alt="" loading="lazy">
-                  <div class="portfolio-overlay">
-                    <div class="portfolio-actions">
-                      <a href="assets/img/portfolio/portfolio-10.webp" class="glightbox preview-link" data-gallery="portfolio-gallery-graphics"><i class="bi bi-eye"></i></a>
-                      <a href="portfolio-details.html" class="details-link"><i class="bi bi-arrow-right"></i></a>
+    
+                <!-- Portfolio Item 2 (Graphics) -->
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-graphics">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="assets/img/portfolio/portfolio-10.webp" class="img-fluid" alt="" loading="lazy" style="max-height: 200px; object-fit: cover;">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-actions">
+                                    <!-- Trigger Modal -->
+                                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#portfolioModal" data-craft="2">View Details</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <span class="category">Graphics</span>
+                            <h3>Creative Brand Identity</h3>
+                            <p>Vestibulum id ligula porta felis euismod semper at vulputate.</p>
+                        </div>
                     </div>
-                  </div>
                 </div>
-                <div class="portfolio-content">
-                  <span class="category">Graphics</span>
-                  <h3>Creative Brand Identity</h3>
-                  <p>Vestibulum id ligula porta felis euismod semper at vulputate.</p>
+    
+                <!-- Portfolio Item 3 (Motion) -->
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-motion">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="assets/img/portfolio/portfolio-7.webp" class="img-fluid" alt="" loading="lazy" style="max-height: 200px; object-fit: cover;">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-actions">
+                                    <!-- Trigger Modal -->
+                                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#portfolioModal" data-craft="3">View Details</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <span class="category">Motion</span>
+                            <h3>Product Animation Reel</h3>
+                            <p>Donec ullamcorper nulla non metus auctor fringilla dapibus.</p>
+                        </div>
+                    </div>
                 </div>
-              </div>
+    
+                <!-- Portfolio Item 4 (Branding) -->
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-brand">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="assets/img/portfolio/portfolio-4.webp" class="img-fluid" alt="" loading="lazy" style="max-height: 200px; object-fit: cover;">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-actions">
+                                    <!-- Trigger Modal -->
+                                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#portfolioModal" data-craft="4">View Details</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <span class="category">Branding</span>
+                            <h3>Luxury Brand Package</h3>
+                            <p>Aenean lacinia bibendum nulla sed consectetur elit.</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Portfolio Item 5 (Web Design) -->
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="assets/img/portfolio/portfolio-5.webp" class="img-fluid" alt="" loading="lazy" style="max-height: 200px; object-fit: cover;">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-actions">
+                                    <!-- Trigger Modal -->
+                                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#portfolioModal" data-craft="5">View Details</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <span class="category">Web Design</span>
+                            <h3>Landing Page UI Design</h3>
+                            <p>Curabitur blandit tempus porttitor.</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Portfolio Item 6 (Graphics) -->
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-graphics">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="assets/img/portfolio/portfolio-6.webp" class="img-fluid" alt="" loading="lazy" style="max-height: 200px; object-fit: cover;">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-actions">
+                                    <!-- Trigger Modal -->
+                                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#portfolioModal" data-craft="6">View Details</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <span class="category">Graphics</span>
+                            <h3>Business Card Design</h3>
+                            <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Portfolio Item 7 (Branding) -->
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-brand">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="assets/img/portfolio/portfolio-8.webp" class="img-fluid" alt="" loading="lazy" style="max-height: 200px; object-fit: cover;">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-actions">
+                                    <!-- Trigger Modal -->
+                                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#portfolioModal" data-craft="7">View Details</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <span class="category">Branding</span>
+                            <h3>Brand Identity Development</h3>
+                            <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Portfolio Item 8 (Web Design) -->
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="assets/img/portfolio/portfolio-9.webp" class="img-fluid" alt="" loading="lazy" style="max-height: 200px; object-fit: cover;">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-actions">
+                                    <!-- Trigger Modal -->
+                                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#portfolioModal" data-craft="8">View Details</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <span class="category">Web Design</span>
+                            <h3>Interactive Website Design</h3>
+                            <p>Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal for Portfolio Details -->
+    <div class="modal fade" id="portfolioModal" tabindex="-1" aria-labelledby="portfolioModalLabel" aria-hidden="true" data-bs-backdrop="static" data-bs-keyboard="false">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="portfolioModalLabel">Crafts Details</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="portfolioDetails">
+                    <!-- Content will be injected dynamically -->
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Bootstrap and jQuery JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script>
+        // Portfolio Details Content
+        const portfolios = {
+            1: {
+                title: 'Paper Caterpillar',
+                image: 'assets/img/portfolio/caterpillar.jpg',
+                Materials: 'Colored paper, scissors, glue, and googly eyes',
+                steps: [
+                    'Step 1: Cut out strips of colored paper.',
+                    'Step 2: Roll the strips into circles and glue the ends together to form the body segments.',
+                    'Step 3: Attach the segments together to form the caterpillars body',
+                    'Step 4: Add googly eyes and draw a face on the front segment.'
+                ]
+            },
+            2: {
+                title: 'Creative Brand Identity',
+                image: 'assets/img/portfolio/portfolio-10.webp',
+                description: 'Vestibulum id ligula porta felis euismod semper at vulputate.',
+                steps: [
+                    'Step 1: Research and understand the brand values.',
+                    'Step 2: Design a logo and brand elements.',
+                    'Step 3: Apply the brand identity across digital and print media.',
+                    'Step 4: Finalize the brand guidelines for consistency.'
+                ]
+            },
+            3: {
+                title: 'Product Animation Reel',
+                image: 'assets/img/portfolio/portfolio-7.webp',
+                description: 'Donec ullamcorper nulla non metus auctor fringilla dapibus.',
+                steps: [
+                    'Step 1: Gather assets and concept ideas.',
+                    'Step 2: Animate the product based on the brand.',
+                    'Step 3: Render and polish animations for the final reel.',
+                    'Step 4: Review the animation for clarity and quality.'
+                ]
+            },
+            4: {
+                title: 'Luxury Brand Package',
+                image: 'assets/img/portfolio/portfolio-4.webp',
+                description: 'Aenean lacinia bibendum nulla sed consectetur elit.',
+                steps: [
+                    'Step 1: Define brand values and target audience.',
+                    'Step 2: Design logo and other visual assets.',
+                    'Step 3: Apply design elements to promotional materials.',
+                    'Step 4: Develop packaging and finalize brand guidelines.'
+                ]
+            },
+            5: {
+                title: 'Landing Page UI Design',
+                image: 'assets/img/portfolio/portfolio-5.webp',
+                description: 'Curabitur blandit tempus porttitor.',
+                steps: [
+                    'Step 1: Gather requirements and user feedback.',
+                    'Step 2: Create wireframes and layout designs.',
+                    'Step 3: Implement the UI with responsive elements.',
+                    'Step 4: Test and optimize for user experience.'
+                ]
+            },
+            6: {
+                title: 'Business Card Design',
+                image: 'assets/img/portfolio/portfolio-6.webp',
+                description: 'Morbi leo risus, porta ac consectetur ac, vestibulum at eros.',
+                steps: [
+                    'Step 1: Determine brand color palette and typeface.',
+                    'Step 2: Create unique business card design.',
+                    'Step 3: Finalize printing details and layout.',
+                    'Step 4: Deliver design for printing and digital use.'
+                ]
+            },
+            7: {
+                title: 'Brand Identity Development',
+                image: 'assets/img/portfolio/portfolio-8.webp',
+                description: 'Integer posuere erat a ante venenatis dapibus posuere velit aliquet.',
+                steps: [
+                    'Step 1: Develop brand strategy and mission.',
+                    'Step 2: Design key brand assets such as logo and color scheme.',
+                    'Step 3: Ensure brand consistency across all media.',
+                    'Step 4: Deliver final brand guidelines and assets.'
+                ]
+            },
+            8: {
+                title: 'Interactive Website Design',
+                image: 'assets/img/portfolio/portfolio-9.webp',
+                description: 'Nullam id dolor id nibh ultricies vehicula ut id elit.',
+                steps: [
+                    'Step 1: Plan the layout and structure of the website.',
+                    'Step 2: Develop interactive elements like sliders, forms, etc.',
+                    'Step 3: Test the website for responsiveness and cross-browser compatibility.',
+                    'Step 4: Launch and gather feedback from users.'
+                ]
+            }
+        };
+    
+        // Function to load portfolio details into the modal
+        $('#portfolioModal').on('show.bs.modal', function (event) {
+            var button = $(event.relatedTarget); // Button that triggered the modal
+            var craftId = button.data('craft'); // Extract craft ID from data attribute
+            var portfolio = portfolios[craftId]; // Get portfolio details
+    
+            // Inject the content into the modal
+            var modalBody = $(this).find('.modal-body');
+            modalBody.html(`
+                <div class="row">
+                    <div class="col-md-6">
+                        <!-- Image with medium size (max-width for medium size) -->
+                        <img src="${portfolio.image}" alt="${portfolio.title}" class="img-fluid" style="max-width: 100%; height: auto;">
+                    </div>
+                    <div class="col-md-6">
+                        <h4>${portfolio.title}</h4>
+                        <p>${portfolio.description}</p>
+                        <h5>Step-by-Step Process:</h5>
+                        <ul>
+                            ${portfolio.steps.map(step => `<li>${step}</li>`).join('')}
+                        </ul>
+                    </div>
+                </div>
+            `);
+        });
+    </script>
+    
+    
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-motion">
               <div class="portfolio-card">
-                <div class="portfolio-image">
-                  <img src="assets/img/portfolio/portfolio-7.webp" class="img-fluid" alt="" loading="lazy">
-                  <div class="portfolio-overlay">
-                    <div class="portfolio-actions">
-                      <a href="assets/img/portfolio/portfolio-7.webp" class="glightbox preview-link" data-gallery="portfolio-gallery-motion"><i class="bi bi-eye"></i></a>
-                      <a href="portfolio-details.html" class="details-link"><i class="bi bi-arrow-right"></i></a>
-                    </div>
+                  <div class="portfolio-image">
+                      <!-- Embed YouTube Video -->
+                      <iframe width="100%" height="315" src="https://www.youtube.com/embed/VIDEO_ID_HERE" class="img-fluid" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      <div class="portfolio-overlay">
+                          <div class="portfolio-actions">
+                              <!-- Link to the video on YouTube -->
+                              <a href="https://www.youtube.com/watch?v=VIDEO_ID_HERE" class="glightbox preview-link" data-gallery="portfolio-gallery-motion"><i class="bi bi-eye"></i></a>
+                              <a href="portfolio-details.html" class="details-link"><i class="bi bi-arrow-right"></i></a>
+                          </div>
+                      </div>
                   </div>
-                </div>
-                <div class="portfolio-content">
-                  <span class="category">Motion</span>
-                  <h3>Product Animation Reel</h3>
-                  <p>Donec ullamcorper nulla non metus auctor fringilla dapibus.</p>
-                </div>
+                  <div class="portfolio-content">
+                      <span class="category">Motion</span>
+                      <h3>Product Animation Reel</h3>
+                      <p>Donec ullamcorper nulla non metus auctor fringilla dapibus.</p>
+                  </div>
               </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-brand">
+          </div><!-- End Portfolio Item -->
+          
+          <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-brand">
               <div class="portfolio-card">
-                <div class="portfolio-image">
-                  <img src="assets/img/portfolio/portfolio-4.webp" class="img-fluid" alt="" loading="lazy">
-                  <div class="portfolio-overlay">
-                    <div class="portfolio-actions">
-                      <a href="assets/img/portfolio/portfolio-4.webp" class="glightbox preview-link" data-gallery="portfolio-gallery-brand"><i class="bi bi-eye"></i></a>
-                      <a href="portfolio-details.html" class="details-link"><i class="bi bi-arrow-right"></i></a>
-                    </div>
+                  <div class="portfolio-image">
+                      <!-- Embed YouTube Video -->
+                      <iframe width="100%" height="315" src="https://www.youtube.com/embed/VIDEO_ID_HERE" class="img-fluid" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      <div class="portfolio-overlay">
+                          <div class="portfolio-actions">
+                              <!-- Link to the video on YouTube -->
+                              <a href="https://www.youtube.com/watch?v=VIDEO_ID_HERE" class="glightbox preview-link" data-gallery="portfolio-gallery-brand"><i class="bi bi-eye"></i></a>
+                              <a href="portfolio-details.html" class="details-link"><i class="bi bi-arrow-right"></i></a>
+                          </div>
+                      </div>
                   </div>
-                </div>
-                <div class="portfolio-content">
-                  <span class="category">Branding</span>
-                  <h3>Luxury Brand Package</h3>
-                  <p>Aenean lacinia bibendum nulla sed consectetur elit.</p>
-                </div>
+                  <div class="portfolio-content">
+                      <span class="category">Branding</span>
+                      <h3>Luxury Brand Package</h3>
+                      <p>Aenean lacinia bibendum nulla sed consectetur elit.</p>
+                  </div>
               </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-web">
+          </div><!-- End Portfolio Item -->
+          
+          <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-web">
               <div class="portfolio-card">
-                <div class="portfolio-image">
-                  <img src="assets/img/portfolio/portfolio-2.webp" class="img-fluid" alt="" loading="lazy">
-                  <div class="portfolio-overlay">
-                    <div class="portfolio-actions">
-                      <a href="assets/img/portfolio/portfolio-2.webp" class="glightbox preview-link" data-gallery="portfolio-gallery-web"><i class="bi bi-eye"></i></a>
-                      <a href="portfolio-details.html" class="details-link"><i class="bi bi-arrow-right"></i></a>
-                    </div>
+                  <div class="portfolio-image">
+                      <!-- Embed YouTube Video -->
+                      <iframe width="100%" height="315" src="https://www.youtube.com/embed/VIDEO_ID_HERE" class="img-fluid" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      <div class="portfolio-overlay">
+                          <div class="portfolio-actions">
+                              <!-- Link to the video on YouTube -->
+                              <a href="https://www.youtube.com/watch?v=VIDEO_ID_HERE" class="glightbox preview-link" data-gallery="portfolio-gallery-web"><i class="bi bi-eye"></i></a>
+                              <a href="portfolio-details.html" class="details-link"><i class="bi bi-arrow-right"></i></a>
+                          </div>
+                      </div>
                   </div>
-                </div>
-                <div class="portfolio-content">
-                  <span class="category">Web Design</span>
-                  <h3>E-commerce Platform</h3>
-                  <p>Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                </div>
+                  <div class="portfolio-content">
+                      <span class="category">Web Design</span>
+                      <h3>E-commerce Platform</h3>
+                      <p>Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                  </div>
               </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-graphics">
+          </div><!-- End Portfolio Item -->
+          
+          <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-graphics">
               <div class="portfolio-card">
-                <div class="portfolio-image">
-                  <img src="assets/img/portfolio/portfolio-11.webp" class="img-fluid" alt="" loading="lazy">
-                  <div class="portfolio-overlay">
-                    <div class="portfolio-actions">
-                      <a href="assets/img/portfolio/portfolio-11.webp" class="glightbox preview-link" data-gallery="portfolio-gallery-graphics"><i class="bi bi-eye"></i></a>
-                      <a href="portfolio-details.html" class="details-link"><i class="bi bi-arrow-right"></i></a>
-                    </div>
+                  <div class="portfolio-image">
+                      <!-- Embed YouTube Video -->
+                      <iframe width="100%" height="315" src="https://www.youtube.com/embed/VIDEO_ID_HERE" class="img-fluid" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      <div class="portfolio-overlay">
+                          <div class="portfolio-actions">
+                              <!-- Link to the video on YouTube -->
+                              <a href="https://www.youtube.com/watch?v=VIDEO_ID_HERE" class="glightbox preview-link" data-gallery="portfolio-gallery-graphics"><i class="bi bi-eye"></i></a>
+                              <a href="portfolio-details.html" class="details-link"><i class="bi bi-arrow-right"></i></a>
+                          </div>
+                      </div>
                   </div>
-                </div>
-                <div class="portfolio-content">
-                  <span class="category">Graphics</span>
-                  <h3>Digital Art Collection</h3>
-                  <p>Cras mattis consectetur purus sit amet fermentum.</p>
-                </div>
+                  <div class="portfolio-content">
+                      <span class="category">Graphics</span>
+                      <h3>Digital Art Collection</h3>
+                      <p>Cras mattis consectetur purus sit amet fermentum.</p>
+                  </div>
               </div>
-            </div><!-- End Portfolio Item -->
-
+          </div><!-- End Portfolio Item -->
+          
           </div><!-- End Portfolio Container -->
-
-        </div>
-
-      </div>
+          
+          
 
     </section><!-- /Portfolio Section -->
 
@@ -463,16 +740,16 @@
                       Beatae magnam dolore quia ipsum. Voluptatem totam et qui dolore dignissimos. Amet quia sapiente laudantium nihil illo et assumenda sit cupiditate. Nam perspiciatis perferendis minus consequatur. Enim ut eos quo.
                     </p>
                     <div class="profile d-flex align-items-center">
-                      <img src="assets/img/person/person-m-7.webp" class="profile-img" alt="">
+                      <img src="assets/img/person/Germina.jpg" class="profile-img" alt="">
                       <div class="profile-info">
-                        <h3>Saul Goodman</h3>
-                        <span>Client</span>
+                        <h3>Samantha Bianca Germina</h3>
+                        <span>MEMBER</span>
                       </div>
                     </div>
                   </div>
                   <div class="col-lg-4 d-none d-lg-block">
                     <div class="featured-img-wrapper">
-                      <img src="assets/img/person/person-m-7.webp" class="featured-img" alt="">
+                      <img src="assets/img/person/Germina.jpg" class="featured-img" alt="">
                     </div>
                   </div>
                 </div>
@@ -491,16 +768,16 @@
                       Dolorem excepturi esse qui amet maxime quibusdam aut repellendus voluptatum. Corrupti enim a repellat cumque est laborum fuga consequuntur. Dolorem nostrum deleniti quas voluptatem iure dolorum rerum. Repudiandae doloribus ut repellat harum vero aut. Modi aut velit aperiam aspernatur odit ut vitae.
                     </p>
                     <div class="profile d-flex align-items-center">
-                      <img src="assets/img/person/person-f-8.webp" class="profile-img" alt="">
+                      <img src="assets/img/person/Gordola.jpg" class="profile-img" alt="">
                       <div class="profile-info">
-                        <h3>Sara Wilsson</h3>
-                        <span>Designer</span>
+                        <h3>Renalyn Gordola</h3>
+                        <span>MEMBER</span>
                       </div>
                     </div>
                   </div>
                   <div class="col-lg-4 d-none d-lg-block">
                     <div class="featured-img-wrapper">
-                      <img src="assets/img/person/person-f-8.webp" class="featured-img" alt="">
+                      <img src="assets/img/person/Gordola.jpg" class="featured-img" alt="">
                     </div>
                   </div>
                 </div>
@@ -521,16 +798,16 @@
                       Itaque ut explicabo vero occaecati est quam rerum sed. Numquam tempora aut aut quaerat quia illum. Nobis quia autem odit ipsam numquam. Doloribus sit sint corporis eius totam fuga. Hic nostrum suscipit corrupti nam expedita adipisci aut optio.
                     </p>
                     <div class="profile d-flex align-items-center">
-                      <img src="assets/img/person/person-m-9.webp" class="profile-img" alt="">
+                      <img src="assets/img/person/Sanoy.jpg" class="profile-img" alt="">
                       <div class="profile-info">
-                        <h3>Matt Brandon</h3>
-                        <span>Freelancer</span>
+                        <h3>Cielo Ann Sanoy</h3>
+                        <span>MEMBER</span>
                       </div>
                     </div>
                   </div>
                   <div class="col-lg-4 d-none d-lg-block">
                     <div class="featured-img-wrapper">
-                      <img src="assets/img/person/person-m-9.webp" class="featured-img" alt="">
+                      <img src="" class="featured-img" alt="">
                     </div>
                   </div>
                 </div>
